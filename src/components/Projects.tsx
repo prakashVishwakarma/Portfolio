@@ -15,6 +15,15 @@ interface Project {
 
 const projects: Project[] = [
   {
+    title: "The Sygence",
+    description: "IT company offering integrated digital platforms for sales, supply chain, and business support.",
+    image: "https://images.unsplash.com/photo-1489410342162-b4b300a0bb15?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    category: "Applications",
+    techStack: ["Laravel", "MySQL" ,"Angular"],
+    demoLink: "https://www.google.com/search?q=sygence+private+limited",
+    // githubLink: "https://github.com"
+  },
+  {
     title: "The Custom Bakers",
     description: "The Custom Bakers, a bakery that specializes in custom cakes and cupcakes.",
     image: "https://images.unsplash.com/photo-1557821552-17105176677c?auto=format&fit=crop&w=800&q=80",
